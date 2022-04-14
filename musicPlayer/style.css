@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.header {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: rgb(146, 53, 53);
+  box-shadow: 0px 4px 5px #888888;
+  color: aliceblue;
+  top: 0;
+  position: sticky;
+}
+.app_name {
+  width: 30vw;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+.icons ul {
+  width: 25vw;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons li {
+  list-style: none;
+}
+.icons ul li {
+  font-weight: bold;
+}
+.icons ul li:hover {
+  color: lightblue;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.left {
+  width: 40vw;
+  height: 100vh;
+  background-color: rgb(13, 20, 27);
+  overflow-y: scroll;
+}
+.left h2 {
+  text-align: center;
+  color: aqua;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.right {
+  width: 60vw;
+  height: 100vh;
+  background-color: rgb(90, 202, 86);
+  background-image: url("./img/banner.png");
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+#marq
+{
+
+  color: rgb(45, 38, 30);
+  font-size: 25px;
+  font-style: italic;
+
+ 
+}
+.titlesong
+{
+  text-align: center;
+  color: aliceblue;
+  top: 280px;
+  position: fixed;
+
+}
+.playIcons {
+  display: grid;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+}
+
+.prbar #myProgressBar
+{
+  width: 17vw;
+}
+.pricon
+{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: center;
+  /* align-items: center; */
+ 
+}
+
+/* ////// */
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: rgb(87, 54, 54);
+  color: rgb(249, 209, 209);
+  font-size: 20px;
+  font-style: italic;
+  margin: 12px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.timestamp
+{
+  margin-right: 20px;
+}
+
+
+.songItem img {
+  width: 43px;
+  margin: 0 10px;
+  border-radius: 30px;
+}
+
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+
+
+/* footer section; */
+.foot
+{
+  margin-top: 550px;
+  position: fixed;
+  color: darkblue;
+  font-style: italic;
+
+}
+
+
+
+/* @media (max-width: 677px) {
+  
+  
+  .container
+  {
+    
+   overflow: hidden;
+  
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .left
+  {
+    width: 40%;
+  }
+  .right
+  {
+    width: 60%;
+  }
+  
+  .songItem
+  {
+    font-size: 12px;
+  }
+} */

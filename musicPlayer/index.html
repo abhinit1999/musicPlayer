@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myMusicPlayer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="app_name">
+            <h2>myMusic</h2>
+        </div>
+        <div class="icons">
+
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+
+            </ul>
+
+        </div>
+    </div>
+    <div class="container">
+
+        <section class="left">
+
+            <h2>Your Library</h2>
+            <hr>
+            <div class="songItem" id="s1">
+                <img src="./img/bg.jpg" alt="1">
+                <span class="songName" id="s1txt">"Don't let me down...."</span>
+                <span class="songlistplay"><span class="timestamp">05:34 
+                  </span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="./img/2.jpg" alt="1">
+                <span class="songName">Cheap Thrills Lyrics - Sia - Genius</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/3.jpg" alt="1">
+                <span class="songName">See You Again” by Wiz Knalifa ft. Charlie Puth</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/4.jpg" alt="1">
+                <span class="songName">“Love Me Like You Do” by Ellie Goulding</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/5.jpg" alt="1">
+                <span class="songName">“Faded” by Alan Walker</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/6.jpg" alt="1">
+                <span class="songName">“Last Friday Night (T.G.I.F.)” by Katy Perry</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/7.jpg" alt="1">
+                <span class="songName">“What Makes You Beautiful” by One Direction</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/8.jpg" alt="1">
+                <span class="songName">“Cheap Thrills” by Sia ft. Sean Paul</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/9.jpg" alt="1">
+                <span class="songName">“We Don’t Talk Anymore” by Charlie Puth ft. Selena Gomez</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/10.jpg" alt="1">
+                <span class="songName">“Smells Like Teen Spirit” by Nirvana</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+            <div class="songItem">
+                <img src="./img/bg.jpg" alt="1">
+                <span class="songName">"Don't let me down...."</span>
+                <span class="songlistplay"><span class="timestamp">05:34  </span></span>
+            </div>
+
+
+
+        </section>
+
+        <section class="right">
+
+         
+
+            <h2 class="titlesong">
+                Currently playing song...
+
+                <marquee id="marq" width="100%" direction="left" height="100px">
+                    “We Don’t Talk Anymore” by Charlie <br> Puth ft. Selena Gomez
+                    05:34
+                </marquee>
+            </h2>
+
+
+            <div class="playIcons">
+                <div class="prbar">
+                    <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100"><br>
+
+                </div>
+
+                <div class="pricon">
+                    <i class="fas fa-3x fa-step-backward" id="previous"></i>
+                    <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+                    <i class="fas fa-3x fa-step-forward" id="next"></i>
+
+                </div>
+
+
+            </div>
+
+
+<footer class="foot">
+    <h4>copyright 
+       
+        © By Abhinit 2022</h4>
+</footer>
+
+        </section>
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous">
+
+    </script>
+
+</body>
+
+</html>
